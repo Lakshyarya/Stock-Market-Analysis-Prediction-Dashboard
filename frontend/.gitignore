@@ -1,6 +1,24 @@
+# Environment files
+.env
+.env.*
+!.env.example
+
+# VS Code
+.vscode/
+
+# IDE
+.idea/
+
+# Python
 .venv/
-node_modules/
-dist/
+venv/
 __pycache__/
 *.pyc
-.env
+
+# Node
+node_modules/
+dist/
+
+# System files
+.DS_Store
+Thumbs.db
